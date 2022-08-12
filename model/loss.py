@@ -73,5 +73,5 @@ class Loss():
                  'eval_pearson_dot': eval_pearson_dot,
                  'eval_spearman_dot': eval_spearman_dot}
 
-        return
+        return score
 

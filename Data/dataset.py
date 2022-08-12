@@ -10,7 +10,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
-data_path='/content/SimCSE/data/'
+data_path='/content/SimCSE/Data/'
 data_nli_path='/content/KorNLUDatasets/KorNLI/'
 data_sts_path='/content/KorNLUDatasets/KorSTS/'
 

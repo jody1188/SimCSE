@@ -59,7 +59,7 @@ class Argument():
     self.parser=ArgumentParser()
 
   def add_args(self):
-    self.parser.add_argument('--model_name', type=str, default='skt/kobert-base-v1')
+    self.parser.add_argument('--model_name', type=str, default='klue/bert-base')
     self.parser.add_argument('--weight_path', type=str, default='weights/')
     self.parser.add_argument('--path_to_train_data', type=str, default='data/train_nli.tsv')
     self.parser.add_argument('--path_to_valid_data', type=str, default='data/valid_sts.tsv')
@@ -70,7 +70,7 @@ class Argument():
     self.parser.add_argument('--max_epochs', type=int, default='3')
     self.parser.add_argument('--learning_rate', type=float, default='5e-5')
     self.parser.add_argument('--test_model_name', type=str, default='')
-    self.parser.add_argument('--test_tokenizer', type=str, default='skt/kobert-base-v1')
+    self.parser.add_argument('--test_tokenizer', type=str, default='klue/bert-base')
     self.parser.add_argument('--train', type=str, default='False')
     self.parser.add_argument('--test', type=str, default='False')
     args = self.parser.parse_args()
